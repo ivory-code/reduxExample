@@ -8,3 +8,4 @@
 1. 예제는 ReactJS 기반으로 구현되었습니다.
 2. ivorycode 티스토리 블로그
    [https://ivorycode.tistory.com/entry/Redux](https://ivorycode.tistory.com/entry/Redux)
+   [https://ivorycode.tistory.com/entry/Redux%EC%9D%98-%ED%9D%90%EB%A6%84%EA%B3%BC-%EC%98%88%EC%A0%9C](https://ivorycode.tistory.com/entry/Redux%EC%9D%98-%ED%9D%90%EB%A6%84%EA%B3%BC-%EC%98%88%EC%A0%9C)
