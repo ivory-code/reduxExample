@@ -2,8 +2,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment } from "../store/modules/counter";
 
 export default function Counter() {
-  const count = useSelector((state) => state.counter.number);
   const dispatch = useDispatch();
+
+  // import한 리듀서 이름을 그대로 사용하는 경우
+  const count = useSelector((state) => state.counter.number);
+
+  // 리듀서 이름을 지정하는 경우
+  // const count = useSelector((state) => state.counterData.number);
 
   return (
     <div>

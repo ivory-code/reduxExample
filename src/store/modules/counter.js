@@ -2,18 +2,19 @@
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";
 
-// Action Functions
-export function increment() {
+// Action Creator
+export const increment = () => {
   return {
     type: INCREMENT,
   };
-}
-export function decrement() {
+};
+export const decrement = () => {
   return {
     type: DECREMENT,
   };
-}
+};
 
+// 초기값 설정
 const initialState = {
   number: 0,
 };
