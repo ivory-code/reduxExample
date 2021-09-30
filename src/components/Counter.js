@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment } from "../store/modules/counter";
+import styled from "styled-components";
 
 export default function Counter() {
   const dispatch = useDispatch();
@@ -13,10 +14,17 @@ export default function Counter() {
   return (
     <div>
       <h1>COUNTER</h1>
-      <h4>{count}</h4>
-      <br />
+      <RecoilWrapper>
+        <h4>{count}</h4>
+      </RecoilWrapper>
       <button onClick={() => dispatch(increment())}> + </button>
       <button onClick={() => dispatch(decrement())}> - </button>
     </div>
   );
 }
+
+const RecoilWrapper = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+`;
