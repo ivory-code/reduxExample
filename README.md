@@ -8,6 +8,11 @@
 1. 예제는 ReactJS 기반으로 구현되었습니다.
 2. 블로그 참고글
 
+#### 9월 30일
+
+- Recoil Counter 예제 추가
+- studu/recoil 브랜치 참고
+
 #### Redux
 
 [https://ivorycode.tistory.com/entry/Redux](https://ivorycode.tistory.com/entry/Redux)
