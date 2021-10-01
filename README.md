@@ -11,7 +11,7 @@
 #### 9월 30일
 
 - Recoil Counter 예제 추가
-- studu/recoil 브랜치 참고
+- study/recoil 브랜치 참고
 
 #### Redux
 
